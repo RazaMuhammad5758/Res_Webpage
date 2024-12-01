@@ -37,3 +37,19 @@ img{
     margin: 0;
     font-size: 2rem;
 }
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    outline: 2px solid #ff7600;
+    flex-grow: 1;
+}
+
+.nav_links{
+    color: var(--clr-text);
+    text-transform: capitalize;
+    text-decoration: none;
+}
